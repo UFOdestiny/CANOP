@@ -1,0 +1,15 @@
+# Data, labels, CANOP and evaluation (Python >= 3.11)
+numpy>=1.26
+pandas>=2.2
+pyarrow>=15.0
+scikit-learn>=1.4
+pyyaml>=6.0
+math-verify>=0.7
+torch>=2.6
+huggingface_hub>=0.34
+# GPU stages: sampling (vLLM) and teacher-forced replay (transformers)
+transformers>=4.57
+vllm>=0.11
+# LLM-assisted labels and the black-box backbone (Anthropic Message Batches)
+anthropic>=0.40
+# Optional, H100/H200 replay speed-up: flash-attn>=2.7
